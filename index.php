@@ -11,23 +11,17 @@
         padding: 0;
         text-align: center;
         max-width: 600;
-        background-color: gray;
-    }
-    #div1 p{
-        padding-right: 10px;
-        text-decoration: none;
-        color: burlywood;
-        
+        background-color: #e6e1cf;
     }
     h1{
-        color: whitesmoke;
+        color: #807e59;
     }
 </style>
 </head>
 <body>
 <h1>AYBERK CEYLAN</h1>
-<div id="div1">
-<p id="social"><a href="">Instagram</a><a href="">Twitter</a></p>
+<div>
+<p><a style="padding-right: 10px; text-decoration:none; color:#ccca8f" href="">Instagram</a><a style="padding-left: 10px; text-decoration:none; color:#ccca8f" href="">Twitter</a></p>
 </div>
 </body>
 </html>
