@@ -24,7 +24,11 @@
 <p style="padding-right: 40px; margin-bottom:30px;"><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Instagram</a><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Twitter</a></p>
 </div>
 <hr style="color: #807e59; align-content: center; width:75%; max-width:600px;">
+<form action="">
+    <p>Benimle iletişime geç!</p>
+    <input type="text">
 
+</form>
 <p></p>
 </body>
 </html>
