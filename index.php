@@ -13,7 +13,7 @@
         max-width: 600;
         background-color: gray;
     }
-    #social.a{
+    #social{
         padding-right: 10px;
         text-decoration: none;
         color: burlywood;
