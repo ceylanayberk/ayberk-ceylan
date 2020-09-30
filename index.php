@@ -27,8 +27,11 @@
 <form action="">
     <h2>Benimle iletişime geç!</h2>
     <input placeholder="E-Mail" width="100px" type="text">
+    <br>
     <input placeholder="Telefon" width="100px" type="text">
+    <br>
     <input placeholder="Mesajınız." width="600px" height="300px" type="text">
+    <br>
     <button type="submit">Gönder!</button>
     
 
