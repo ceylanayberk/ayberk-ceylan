@@ -11,13 +11,23 @@
         padding: 0;
         text-align: center;
         max-width: 600;
+        background-color: gray;
+    }
+    #social.a{
+        padding-right: 10px;
+        text-decoration: none;
+        color: burlywood;
+        
+    }
+    h1{
+        color: whitesmoke;
     }
 </style>
 </head>
 <body>
 <h1>AYBERK CEYLAN</h1>
 <div>
-<p style="text-decoration: none; font-colour: red;"><a href="">Instagram</a><a href="">Twitter</a></p>
+<p id="social"><a href="">Instagram</a><a href="">Twitter</a></p>
 </div>
 </body>
 </html>
