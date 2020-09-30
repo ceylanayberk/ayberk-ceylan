@@ -25,8 +25,12 @@
 </div>
 <hr style="color: #807e59; align-content: center; width:75%; max-width:600px;">
 <form action="">
-    <p>Benimle iletişime geç!</p>
-    <input type="text">
+    <h2>Benimle iletişime geç!</h2>
+    <input placeholder="E-Mail" width="100px" type="text">
+    <input placeholder="Telefon" width="100px" type="text">
+    <input placeholder="Mesajınız." width="600px" height="300px" type="text">
+    <button type="submit">Gönder!</button>
+    
 
 </form>
 <p></p>
