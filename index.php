@@ -23,5 +23,6 @@
 <div>
 <p style="padding-right: 20px;"><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Instagram</a><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Twitter</a></p>
 </div>
+<hr style="align-content: center; width:75%;">
 </body>
 </html>
