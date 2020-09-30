@@ -13,7 +13,7 @@
         max-width: 600;
         background-color: gray;
     }
-    #social{
+    #div1 p{
         padding-right: 10px;
         text-decoration: none;
         color: burlywood;
@@ -26,7 +26,7 @@
 </head>
 <body>
 <h1>AYBERK CEYLAN</h1>
-<div>
+<div id="div1">
 <p id="social"><a href="">Instagram</a><a href="">Twitter</a></p>
 </div>
 </body>
