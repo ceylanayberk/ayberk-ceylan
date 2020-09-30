@@ -21,7 +21,7 @@
 <body>
 <h1>AYBERK CEYLAN</h1>
 <div>
-<p><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Instagram</a><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Twitter</a></p>
+<p style="padding-right: 20px;"><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Instagram</a><a style="padding-left: 20px; text-decoration:none; color:#ccca8f" href="">Twitter</a></p>
 </div>
 </body>
 </html>
