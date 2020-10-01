@@ -14,6 +14,7 @@
             background-color: gray;
             max-width: 600px;
             margin: auto;
+            padding-left: 5px;
         }
         * {
     -ms-text-size-adjust: 100%;
@@ -67,13 +68,21 @@ img {
 
 
         #header-stuck-line {
+padding: 15px;
             height: 75px;
             background-color: white;
         }
 
         #header-stuck-line img {
+            padding-bottom: 30px;
             align-items: center;
-            padding-top: 15px;
+            padding-left: 165px;
+        }
+        #LANG{
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 50px;
+            padding-left: 100px;
         }
 
 
@@ -185,15 +194,13 @@ img {
         }
         #webdev{
             text-align: left;
-            position: relative;
-            top: 50px;
-            left: 20px;
+            padding-left: 20px;
+            padding-top: 20px;
         }
         #rights{
-            text-align: left;
-            position: relative;
-            top: 150px;
-            left: 20px;
+            text-align:end;
+            padding-top: 130px;
+            padding-right: 10px;
         }
         #boardteam{
             text-align: right;
@@ -208,9 +215,8 @@ img {
     <header>
         <div id="header-stuck-line">
             <img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt="">
-            <p
-                style="position: relative; color: gray; bottom: 55px; right: 10px; text-align: right; font-size: 50px; font-weight: 700;">
-                TR</p>
+            <span id="LANG">TR</span>
+
         </div>
     </header>
     <div id="main-turkish">
@@ -252,9 +258,7 @@ img {
     <header>
         <div id="header-stuck-line">
             <img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt="">
-            <p
-                style="position: relative; color: gray; bottom: 55px; right: 10px; text-align: right; font-size: 50px; font-weight: 700;">
-                EN</p>
+            <span id="LANG">EN</span>
         </div>
     </header>
     <div id="main-turkish">
