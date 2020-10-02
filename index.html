@@ -16,73 +16,21 @@
             max-width: 600px;
             margin: auto;
             padding: auto;
+            -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
         }
+        body::-webkit-scrollbar {
+  display: none;
+}
 
         * {
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
 
-        table,
-        td {
-            mso-table-lspace: 0pt !important;
-            mso-table-rspace: 0pt !important;
-        }
-
-        table {
-            border-spacing: 0 !important;
-            border-collapse: collapse !important;
-            table-layout: fixed !important;
-            margin: 0 auto !important;
-        }
-
         img {
             -ms-interpolation-mode: bicubic;
         }
-
-        *[x-apple-data-detectors],
-        /* iOS */
-        .unstyle-auto-detected-links *,
-        .aBn {
-            border-bottom: 0 !important;
-            cursor: default !important;
-            color: inherit !important;
-            text-decoration: none !important;
-            font-size: inherit !important;
-            font-family: inherit !important;
-            font-weight: inherit !important;
-            line-height: inherit !important;
-        }
-
-        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
-            body {
-                min-width: 320px !important;
-            }
-        }
-
-        /* iPhone 6, 6S, 7, 8, and X */
-        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
-            body {
-                min-width: 375px !important;
-            }
-        }
-
-        /* iPhone 6+, 7+, and 8+ */
-        @media only screen and (min-device-width: 414px) {
-            body {
-                min-width: 414px !important;
-            }
-        }
-
-
-
-
-        #header-stuck-line {
-            padding: 15px;
-            height: 75px;
-            background-color: white;
-        }
-
         #header-stuck-line img {
             padding-bottom: 30px;
             align-items: center;
@@ -95,6 +43,34 @@
             font-size: 50px;
             padding-left: 100px;
         }
+
+        @media only screen and (min-device-width: 250px){
+            body {
+                min-width: 250px;
+            }#header-stuck-line img {
+            padding-bottom: 30px;
+            align-items: center;
+            padding-left: 65px;
+        }
+            #LANG {
+
+            font-weight: 700;
+            font-size: 30px;
+            padding-left: 20px;
+        }
+        #about-edu-turkish{
+    font-size: 16px;
+}
+
+
+
+        #header-stuck-line {
+            padding: 15px;
+            height: 75px;
+            background-color: white;
+        }
+
+
 
 
         #main-turkish {
@@ -140,9 +116,10 @@
         }
 
         #edu-content-turkish {
-            height: 750px;
-            background-color: black;
 
+            height: 750px;
+            background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
         }
 
         #edu-content-turkish-container {
@@ -154,7 +131,7 @@
         #about-edu-turkish {
             font-weight: 300;
             font-size: 18px;
-            color: gray;
+            color: rgb(238, 146, 40);
             -webkit-transform: scale(1.10, 1);
             /* Safari and Chrome */
             -moz-transform: scale(1.10, 1);
