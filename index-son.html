@@ -26,7 +26,6 @@
             display: none;
         }
 
-        #email-container {}
 
         #stuck-line {
             margin: 0px;
@@ -37,11 +36,12 @@
             align-items: center;
             background-color: #EFF2F1;
         }
-
+/*
         * {
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
+        */
 
         /*
         #header-stuck-line img {
@@ -58,7 +58,7 @@
 
         
 
-        @media only screen and (min-width: 250px)and (max-width:400px){
+        @media only screen and (min-width: 250px)and (max-width:450px){
             body {
                 min-width: 250px;
             }
@@ -72,18 +72,15 @@
             font-weight: 700;
             font-size: 30px;
             padding-left: 0px;
-            padding-bottom: 10px;
+            padding-bottom: 5px;
         }
-        #main-turkish {
-            background-color: #97D8C4;
-            height: 800px;
-            margin: 0 0 0 0;
-            padding: 0;
+        #main-turkish{
+            font-size: 10px;
         }
         }
-        @media only screen and (min-width: 400px)and(max-width: 1000px){
+        @media only screen and (min-width: 450px)and(max-width: 1000px){
             body {
-                min-width: 400px !important;!important
+                min-width: 450px !important;
             }
             #zor{
             padding-bottom: 30px !important;
@@ -120,7 +117,8 @@
 
         #main-turkish {
             background-color: #97D8C4;
-            height: 400px;
+            min-height: 400px;
+            max-height: 1000px;
             margin: 0 0 0 0;
             padding: 0;
         }
@@ -166,7 +164,7 @@
         #edu-content-turkish {
 
             min-height: 750px;
-            max-height: 1000px;
+            max-height: 10000px;
             background: #97D8C4;
             background: linear-gradient(0deg, #F4B942 57%, #97D8C4 100%);
         }
