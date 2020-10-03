@@ -16,50 +16,53 @@
             max-width: 600px;
             margin: auto;
             padding: auto;
-            -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
         }
-        body::-webkit-scrollbar {
-  display: none;
-}
-#email-container{
 
-}
-#header-stuck-line{
-    display:inline-block;
-    background-color: white;
-}
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        #email-container {}
+
+        #stuck-line {
+            margin: 0px;
+            padding-top: 20px;
+            display: block;
+            text-align: center;
+            align-content: center;
+            align-items: center;
+            background-color: white;
+        }
 
         * {
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
-        header{
-            margin: 0px;
-            padding: 0px;
-            display: block;
-            text-align: center;
-            background-color: white;
-        }
-/*
+
+        /*
         #header-stuck-line img {
             padding-bottom: 30px;
         }
         */
 
         #LANG {
-       text-align: center;
-        font-size: 30px;
-        font-weight: 700;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            padding-top: 10px;
         }
+
         
-        /*
 
         @media only screen and (min-width: 250px)and (max-width:400px){
             body {
                 min-width: 250px;
             }
-            #header-stuck-line img {
+            #zor{
             padding-bottom: 30px;
             align-items: center;
             padding-left: 65px;
@@ -75,48 +78,36 @@
         @media only screen and (min-width: 400px)and(max-width: 1000px){
             body {
                 min-width: 400px !important;!important
-            }#header-stuck-line h1 img {
+            }
+            #zor{
             padding-bottom: 30px !important;
             align-items: center !important;
             padding-left: 0px !important;
         }
             #LANG {
 
+            text-align: center;
+            font-size: 30px;
             font-weight: 700;
-            font-size: 30px !important;
-            padding-left: 0px !important;
-            padding-bottom: 10px;
+            padding-top: 10px;
         }
         }
         @media only screen and (min-device-width: 400px){
             body {
                 min-width: 250px !important;
-            }#header-stuck-line h1 img {
+            }
+            #zor{
             padding-bottom: 30px !important;
             align-items: center !important;
             padding-left: 0px !important;
         }
-            #LANG {
-
-            font-weight: 700;
-            font-size: 30px !important;
-            padding-left: 0px !important;
-            padding-bottom: 10px;
+           
         }
+        
+        #about-edu-turkish {
+            font-size: 16px;
         }
-        */
-        #about-edu-turkish{
-    font-size: 16px;
-}
 
-/*
-
-        #header-stuck-line {
-            padding: 15px;
-            height: 75px;
-            background-color: white;
-        }
-        */
 
 
 
@@ -167,8 +158,8 @@
 
             min-height: 750px;
             max-height: 1000px;
-            background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
+            background: rgb(2, 0, 36);
+            background: linear-gradient(0deg, rgba(2, 0, 36, 1) 57%, rgba(76, 180, 157, 1) 100%);
         }
 
         #edu-content-turkish-container {
@@ -212,9 +203,7 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
             margin-bottom: 20px;
         }
 
-        #instructor {
-
-        }
+        #instructor {}
 
         #edu-info {
             padding: 20px 0px 5px 0px;
@@ -254,140 +243,154 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
             top: 10px;
             right: 20px;
         }
+
         /*
         #h1logo{
             text-align: center;
             position:static;
         }
         */
+        #zor {
+            text-align: center;
+        }
+
+        #zetf {
+            align: "center";
+            role: "presentation";
+            cellspacing: "0";
+            cellpadding: "0";
+            border: 0;
+            width: 100%;
+            margin: auto;
+            padding-top: 20px;
+        }
     </style>
 </head>
 
 <body>
-    <center>
-<div id="email-container">
-    
-    <header>
-        <div id="header-stuck-line">
-            <div id="header-stuck-line">
-                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
-                    <tr>
-                    <td style="padding: 1em 2.5em; text-align: center">
-                      <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></a></h1>
+
+    <div id="email-container">
+
+
+        <div id="stuck-line">
+            <table id="zetf" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td id="zor" align="center">
+                        <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png"
+                                    alt=""></a></h1>
                     </td>
-                  </tr>  
-                  <tr>
-                      <td id="LANG">
+                </tr>
+                <tr>
+                    <td id="LANG" align="center">
                         TR
-                      </td>
-                  </tr>
-                </table>
-                  <!--
+                    </td>
+                </tr>
+            </table>
+            <!--
                 <h1 id="h1logo"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></h1>
                 -->
 
         </div>
-    </header>
-    <div id="main-turkish">
-        <h1>OZU MAKER</h1>
-        <p>Selam Maker!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus delectus laudantium repellat dolorem,
-            deserunt vero, libero molestias sint corrupti beatae eligendi itaque magni impedit expedita ipsam
-            exercitationem accusantium reprehenderit laboriosam.</p>
-        <a href="https://google.com">
-            <button id="button-apply">
-                Kayıt Ol!
-            </button>
-        </a>
-    </div>
-    <div id="edu-content-turkish">
-        <div id="edu-content-turkish-container">
-            <p id="about-edu-turkish">EĞİTİM HAKKINDA</p>
-            <hr>
-            <h1>İÇERİK</h1>
-            <p id="edu-date-turkish">25 Ekim 2020, 18.40</p>
-            <p id="instructor">Eğitmen: Utku Çelebiöven</p>
-            <p id="edu-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam culpa in id officia
-                impedit voluptas, quas debitis labore assumenda temporibus sunt at dolore, quo dolorum earum non eum
-                ipsum pariatur.</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
-            <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="boardteam">Yönetim Ekibi</p>
 
+        <div id="main-turkish">
+            <h1>OZU MAKER</h1>
+            <p>Selam Maker!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus delectus laudantium repellat dolorem,
+                deserunt vero, libero molestias sint corrupti beatae eligendi itaque magni impedit expedita ipsam
+                exercitationem accusantium reprehenderit laboriosam.</p>
+            <a href="https://google.com">
+                <button id="button-apply">
+                    Kayıt Ol!
+                </button>
+            </a>
+        </div>
+        <div id="edu-content-turkish">
+            <div id="edu-content-turkish-container">
+                <p id="about-edu-turkish">EĞİTİM HAKKINDA</p>
+                <hr>
+                <h1>İÇERİK</h1>
+                <p id="edu-date-turkish">25 Ekim 2020, 18.40</p>
+                <p id="instructor">Eğitmen: Utku Çelebiöven</p>
+                <p id="edu-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam culpa in id officia
+                    impedit voluptas, quas debitis labore assumenda temporibus sunt at dolore, quo dolorum earum non eum
+                    ipsum pariatur.</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
+                <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="boardteam">Yönetim Ekibi</p>
+
+
+            </div>
 
         </div>
-
-    </div>
-    <header>
-        <div id="header-stuck-line">
-            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+        <div id="stuck-line">
+            <table id="zetf" width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                <td class="bg_white logo" style="padding: 1em 2.5em; text-align: center">
-                  <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></a></h1>
-                </td>
-              </tr>
-              <tr>
-                <td id="LANG">
-                  EN
-                </td>
-            </tr>
-              </table>
-              <!--
+                    <td id="zor" align="center">
+                        <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png"
+                                    alt=""></a></h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="LANG" align="center">
+                        EN
+                    </td>
+                </tr>
+            </table>
+            <!--
             <h1 id="h1logo"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></h1>
             -->
 
         </div>
-    </header>
-    <div id="main-turkish">
-        <h1>OZU MAKER</h1>
-        <p>Hi Maker!</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus delectus laudantium repellat dolorem,
-            deserunt vero, libero molestias sint corrupti beatae eligendi itaque magni impedit expedita ipsam
-            exercitationem accusantium reprehenderit laboriosam.</p>
-        <a href="https://google.com">
-            <button id="button-apply">
-                Register!
-            </button>
-        </a>
-    </div>
+        <div id="main-turkish">
+            <h1>OZU MAKER</h1>
+            <p>Hi Maker!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus delectus laudantium repellat dolorem,
+                deserunt vero, libero molestias sint corrupti beatae eligendi itaque magni impedit expedita ipsam
+                exercitationem accusantium reprehenderit laboriosam.</p>
+            <a href="https://google.com">
+                <button id="button-apply">
+                    Register!
+                </button>
+            </a>
+        </div>
 
-    <div id="edu-content-turkish">
-        <div id="edu-content-turkish-container">
-            <p id="about-edu-turkish">ABOUT WORKSHOP</p>
-            <hr>
-            <h1>CONTENT</h1>
-            <p id="edu-date-turkish">25 October 2020, 18.40</p>
-            <p id="instructor">Instructor: Utku Çelebiöven</p>
-            <p id="edu-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam culpa in id officia
-                impedit voluptas, quas debitis labore assumenda temporibus sunt at dolore, quo dolorum earum non eum
-                ipsum pariatur.</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
-            <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
-            <p id="boardteam">Board Team</p>
+        <div id="edu-content-turkish">
+            <div id="edu-content-turkish-container">
+                <p id="about-edu-turkish">ABOUT WORKSHOP</p>
+                <hr>
+                <h1>CONTENT</h1>
+                <p id="edu-date-turkish">25 October 2020, 18.40</p>
+                <p id="instructor">Instructor: Utku Çelebiöven</p>
+                <p id="edu-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam culpa in id officia
+                    impedit voluptas, quas debitis labore assumenda temporibus sunt at dolore, quo dolorum earum non eum
+                    ipsum pariatur.</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
+                <p id="edu-info-middle-strong">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam.</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="edu-info-middle">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="edu-info-middle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quia?</p>
+                <p id="boardteam">Board Team</p>
 
 
+            </div>
+
+        </div>
+        <div id="footer">
+            <p id="webdev">OZU MAKER WEB DEV. TEAM</p>
+            <p id="rights">2020 OZU MAKER ALL RIGHTS RESERVED®</p>
         </div>
 
     </div>
-    <div id="footer">
-        <p id="webdev">OZU MAKER WEB DEV. TEAM</p>
-        <p id="rights">2020 OZU MAKER ALL RIGHTS RESERVED®</p>
-    </div>
 
-</div>
-</center>
 
     <!--
     AYBERK CEYLAN - 2020 - OZU MAKER ALL RIGHTS RESERVED®
