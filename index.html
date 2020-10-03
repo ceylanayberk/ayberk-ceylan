@@ -22,32 +22,44 @@
         body::-webkit-scrollbar {
   display: none;
 }
+#email-container{
+
+}
+#header-stuck-line{
+    display:inline-block;
+    background-color: white;
+}
 
         * {
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: 100%;
         }
-
-        img {
-            -ms-interpolation-mode: bicubic;
+        header{
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            text-align: center;
+            background-color: white;
         }
+/*
         #header-stuck-line img {
             padding-bottom: 30px;
-            align-items: center;
-            padding-left: 165px;
         }
+        */
 
         #LANG {
-            margin-top: 50px;
-            font-weight: 700;
-            font-size: 50px;
-            padding-left: 100px;
+       text-align: center;
+        font-size: 30px;
+        font-weight: 700;
         }
+        
+        /*
 
         @media only screen and (min-width: 250px)and (max-width:400px){
             body {
                 min-width: 250px;
-            }#header-stuck-line img {
+            }
+            #header-stuck-line img {
             padding-bottom: 30px;
             align-items: center;
             padding-left: 65px;
@@ -56,51 +68,55 @@
 
             font-weight: 700;
             font-size: 30px;
-            padding-left: 20px;
+            padding-left: 0px;
+            padding-bottom: 10px;
         }
         }
         @media only screen and (min-width: 400px)and(max-width: 1000px){
             body {
                 min-width: 400px !important;!important
-            }#header-stuck-line img {
+            }#header-stuck-line h1 img {
             padding-bottom: 30px !important;
             align-items: center !important;
-            padding-left: 165px !important;
+            padding-left: 0px !important;
         }
             #LANG {
 
             font-weight: 700;
             font-size: 30px !important;
-            padding-left: 20px !important;
+            padding-left: 0px !important;
+            padding-bottom: 10px;
         }
         }
         @media only screen and (min-device-width: 400px){
             body {
                 min-width: 250px !important;
-            }#header-stuck-line img {
+            }#header-stuck-line h1 img {
             padding-bottom: 30px !important;
             align-items: center !important;
-            padding-left: 65px !important;
+            padding-left: 0px !important;
         }
             #LANG {
 
             font-weight: 700;
             font-size: 30px !important;
-            padding-left: 20px !important;
+            padding-left: 0px !important;
+            padding-bottom: 10px;
         }
         }
+        */
         #about-edu-turkish{
     font-size: 16px;
 }
 
-
+/*
 
         #header-stuck-line {
             padding: 15px;
             height: 75px;
             background-color: white;
-            align-items: center !important;
         }
+        */
 
 
 
@@ -165,7 +181,7 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
         #about-edu-turkish {
             font-weight: 300;
             font-size: 18px;
-            color: rgb(238, 146, 40);
+            color: #de8d87;
             -webkit-transform: scale(1.10, 1);
             /* Safari and Chrome */
             -moz-transform: scale(1.10, 1);
@@ -196,7 +212,9 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
             margin-bottom: 20px;
         }
 
-        #instructor {}
+        #instructor {
+
+        }
 
         #edu-info {
             padding: 20px 0px 5px 0px;
@@ -236,14 +254,37 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
             top: 10px;
             right: 20px;
         }
+        /*
+        #h1logo{
+            text-align: center;
+            position:static;
+        }
+        */
     </style>
 </head>
 
 <body>
+    <center>
+<div id="email-container">
+    
     <header>
         <div id="header-stuck-line">
-            <img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt="">
-            <span id="LANG">TR</span>
+            <div id="header-stuck-line">
+                <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                    <tr>
+                    <td style="padding: 1em 2.5em; text-align: center">
+                      <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></a></h1>
+                    </td>
+                  </tr>  
+                  <tr>
+                      <td id="LANG">
+                        TR
+                      </td>
+                  </tr>
+                </table>
+                  <!--
+                <h1 id="h1logo"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></h1>
+                -->
 
         </div>
     </header>
@@ -285,8 +326,22 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
     </div>
     <header>
         <div id="header-stuck-line">
-            <img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt="">
-            <span id="LANG">EN</span>
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: auto;">
+                <tr>
+                <td class="bg_white logo" style="padding: 1em 2.5em; text-align: center">
+                  <h1><a href="http://ozumaker.com"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></a></h1>
+                </td>
+              </tr>
+              <tr>
+                <td id="LANG">
+                  EN
+                </td>
+            </tr>
+              </table>
+              <!--
+            <h1 id="h1logo"><img src="https://ayberk-ceylan.herokuapp.com/logo.png" alt=""></h1>
+            -->
+
         </div>
     </header>
     <div id="main-turkish">
@@ -326,17 +381,19 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 57%, rgba(76,180,157,1) 100%);
         </div>
 
     </div>
-    <footer id="footer">
+    <div id="footer">
         <p id="webdev">OZU MAKER WEB DEV. TEAM</p>
         <p id="rights">2020 OZU MAKER ALL RIGHTS RESERVED®</p>
-    </footer>
+    </div>
 
-
+</div>
+</center>
 
     <!--
     AYBERK CEYLAN - 2020 - OZU MAKER ALL RIGHTS RESERVED®
     business.ayberk@gmail.com
 -->
+
 </body>
 
 </html>
