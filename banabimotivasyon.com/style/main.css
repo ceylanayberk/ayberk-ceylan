@@ -162,6 +162,28 @@ footer p{
     padding-bottom: 10px;
 }
 }
+@media only screen and (max-width:865px) {
+    .container main .landing h1{
+        font-size: 72px;
+        width: 92%;
+        height:200px;
+        
+    } 
+@media only screen and (max-width:550px) {
+    .container main .landing h1{
+        font-size: 60px;
+    }
+    
+}    
+@media only screen and (max-width:495px) {
+    .container main .landing h1{
+        font-size: 50px;
+    }
+    @media only screen and (max-width:400px) {
+        .container main .landing h1{
+        font-size: 40px;
+    }
+    }
 @media only screen and (max-width:374px){
     .container header{
         height: 120px;
@@ -190,5 +212,6 @@ footer p{
         font-size: 30px;
     }
     
+    }
 
 }
