@@ -1,0 +1,279 @@
+*{
+padding: 0;
+margin: 0;
+border: none;
+list-style: none;
+box-sizing: border-box;
+font-family: "HelveticaNeue-Light", Helvetica, sans-serif, "Helvetica Neue Light", Icons;
+-webkit-font-smoothing:antialiased;
+}
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+height: 120px;
+width: 100%;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.logo img{
+    height: 100px;
+}
+/*header end*/
+.landing{
+    height: calc(100vh - 120px);
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+}
+#myVideo {
+    z-index: -10;
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    
+  }
+  .landing h1 {
+      padding: 10px 0px;
+      border-top: 2px solid white;
+      border-bottom: 2px solid white;
+      color: white;
+      z-index: 10;
+     position: absolute;
+  }
+  h1 {
+    
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/*END LANDING*/
+
+.products{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 95vh;
+    width: 95%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.homemade{
+    width: 75%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.artichoke-products{
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.artichoke-products::-webkit-scrollbar{
+    display: none;
+}
+ul{
+    display: flex;
+    overflow: auto;
+    height: 400px;
+
+}
+ul li{
+    height: 300px;
+    min-width: 250px;
+    background-color: white;
+    margin: 10px;
+}
+ul li img{
+    height: 250px;
+}
+.drinks{
+    margin-top: 10px;
+    width: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.artichoke-drinks{
+
+    width: 100%;
+    height: 400px;
+}
+/*
+END FIRST PRODUCTS
+*/
+.products-2{
+    
+        height: 200vh;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
+.container-2{
+        height: 1600px;
+        width: 95%;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.cupboard{
+    padding-top: 60px;
+    width: 75%;
+    height: 95%;
+    border-bottom: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cupboard title{
+    font-size: 40px;
+}
+.cupboard > ul{
+    height: 95%;
+    padding-top:30px ;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.cupboard > ul > li{
+    margin: 20px;
+}
+/*end of second product*/
+.b{
+    margin: 20px 20px;
+color: wheat;
+font-size: 20px;
+}
+.about{
+height: 800px;
+background-color: black;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container-about{
+width: 75%;
+display: flex;
+flex-direction: column;
+border-right: 1px solid wheat;
+border-left: 1px solid wheat;
+}
+.message1{
+    justify-self: left;
+}
+.message2{
+    justify-self: right;
+}
+.message3{
+    justify-self: left;
+}
+.message4{
+    justify-self: right;
+}
+.message5{
+    justify-self: left;
+}
+.message6{
+    justify-self: right;
+}
+.message7{
+    justify-self: left;
+}
+/*
+end of message
+*/
+.ingredients{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingredients .container-ingredients{
+    text-align: center;
+    width: 75%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.ingredients .container-ingredients p{
+    margin-top: 10px;
+}
+.ingredients .container-ingredients p a{
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+/*end of ingredients*/
+.geo{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+background-color: black;
+}
+.container-geo{
+    width: 75%;
+    background-color: black;
+        
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+}
+.contact p {
+    text-align: center;
+}
+.copyright{
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
