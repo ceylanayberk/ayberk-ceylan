@@ -259,17 +259,20 @@ align-items: center;
 justify-content: space-around;
 }
 .contact{
+    overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-color: white;
     border-radius: 10px;
+    
 }
 .contact p {
     text-align: center;
+    font-size: 12px;
 }
 .copyright{
     background-color: wheat;
@@ -345,6 +348,7 @@ display: none;
     .container-about p{
         margin: 10px 10px;
     }
+
 
 }
 
