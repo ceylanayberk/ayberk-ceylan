@@ -16,7 +16,7 @@ body::-webkit-scrollbar{
 }
 
 :root{
-    --renk-header: #2d3436;
+    --renk-header: black;
     --renk-header-acik:#a29bfe;
     --text-renk:#dfe6e9;
     --dark-text:#b2bec3;
