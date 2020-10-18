@@ -68,9 +68,11 @@ body {
 .container {
 
     background-color: rgb(85, 85, 85);
-    height: calc(100vh - 80px);
+    height: 500px;
     display: flex;
     flex-direction: column;
+
+
 
 
     .cont-title {
@@ -79,13 +81,14 @@ body {
         color: rgba(255, 255, 255, 0.37);
         margin-top: 50px;
         align-self: center;
-        height: calc(16vh - 80px);
+        height: calc(100px);
         text-align: center;
-        width: 90%;
         border-bottom: 1px solid rgba(255, 255, 255, 0.37);
     }
 
     .langs {
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -158,23 +161,27 @@ body {
     }
 }
 
-.referanslar { 
-    height: 450px;
-    &:hover{
+.referanslar {
+    height: 200px;
+
+    &:hover {
         transform: scale(1.02);
     }
-    border-top: 1px solid rgba(255, 255, 255, 0) ;
-    border-bottom:1px solid rgba(255, 255, 255, 0) ;
+
+    border-top: 1px solid rgba(255, 255, 255, 0);
+    border-bottom:1px solid rgba(255, 255, 255, 0);
     text-align: center;
-justify-content: center;
-align-items: center;
-align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
     .ref-kutular {
         ul {
             display: flex;
-align-content: center;
-align-items: center;
-justify-content: center;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+
             li {
                 display: flex;
                 flex-direction: column;
@@ -190,21 +197,24 @@ justify-content: center;
     }
 
 }
-.ref-aciklama{
+
+.ref-aciklama {
     font-size: 30px;
-    color: orange;
+    color: wheat;
     height: 100px;
-    }
-.footer{
+}
+
+.footer {
     display: flex;
     align-items: center;
     height: 50px;
-    background-color: red;
+    background-color: black;
     color: rgba(255, 255, 255, 0.37);
-ul{
-    padding: 0px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
+
+    ul {
+        padding: 0px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
 }
