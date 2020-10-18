@@ -52,31 +52,37 @@ height: calc(100vh - 100px);
     
     
 }
+.responsive{
+    margin: 0px 100px;
+}
 .third-content{
-    margin: 0 100px;
+    width: 100%;
     margin-bottom: 100px;
     display: flex;
     align-items: center;
+    background-color: black;
 
     .img-box-3 img{
         height: 550px;
-        margin-right: 150px;
+        margin-left: 100px;
+        margin-right: 68px;
 
     }
     .text-box-3{
+        color: white;
         display: flex;
         align-items: center;
         text-align: center;
         height: 450px;
         font-size: 100px;
-        padding-left: 150px;
-        border-left: 1px solid black;
+        padding-left: 100px;
+        border-left: 1px solid white;
     }
 }
 .numbers{
     width: 100%;
     background-color: black;
-    height: 300px;
+    height: 50px;
     color: #999999;
     display: flex;
     justify-content: space-between;
@@ -88,4 +94,16 @@ height: calc(100vh - 100px);
 
 
 
+}
+@media screen and (max-width:400px){
+    .third-content{
+        background-color: black;
+    }
+    .text-box-3{
+        color: white;
+        border-left: 1px solid white;
+    }
+    .img-box-3{
+        background-color: black;
+    }
 }
