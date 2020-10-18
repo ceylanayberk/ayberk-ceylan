@@ -11,7 +11,7 @@ height: calc(100vh - 100px);
 .first-content .text-box-1{
     color: white;
     font-size: 88px;
-    bottom: 0px;
+    bottom: 100px;
     padding-left: 250px;
     cursor: default;
     position: absolute;
@@ -94,6 +94,16 @@ height: calc(100vh - 100px);
 
 
 
+}
+@media screen and (min-width:800) and (max-width:977){
+    .first-content .text-box-1{
+        color: white;
+        font-size: 58px;
+        bottom: 100px;
+        padding-left: 250px;
+        cursor: default;
+        position: absolute;
+    }
 }
 @media screen and (max-width:400px){
     .third-content{

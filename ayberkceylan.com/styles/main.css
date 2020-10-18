@@ -1,1 +1,251 @@
-*{margin:0;padding:0;list-style:none;text-decoration:none;border:none;font-family:"Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;-webkit-font-smoothing:antialiased;transition:600ms all}html,body{scroll-behavior:smooth;scrollbar-width:none;-ms-overflow-style:none}html ::-webkit-scrollbar,body ::-webkit-scrollbar{display:none}.header{background-color:#333;height:80px;width:100%;display:flex;position:relative}.header .logo{letter-spacing:30px;color:#fff;font-size:12px;align-self:center;margin:auto}.header .contact{align-self:center;position:absolute;right:0px}.header .contact button{box-sizing:border-box;background-color:#333;color:rgba(255,255,255,.37);font-size:15px;margin-right:5px;border-left:1px solid rgba(255,255,255,.5);height:60px;width:110px;cursor:pointer}.header .contact button:hover{border-left:1px solid #fff;color:#fff}.container{background-color:#555;height:500px;display:flex;flex-direction:column}.container .cont-title{font-size:30px;color:rgba(255,255,255,.37);margin-top:50px;align-self:center;height:calc(100px);text-align:center;border-bottom:1px solid rgba(255,255,255,.37)}.container .langs{height:100%;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}.container .langs ul{width:100%;padding-top:40px;display:flex;justify-content:space-around}.container .langs ul li{-webkit-box-shadow:6px 10px 36px 21px rgba(0,0,0,.75);-moz-box-shadow:6px 10px 36px 21px rgba(0,0,0,.75);box-shadow:6px 10px 36px 21px rgba(0,0,0,.75);margin:40px;background-color:rgba(255,255,255,.37);border:30px solid rgba(255,255,255,.37)}.container .langs ul li:hover{transform:scale(1.05)}.container .langs ul li img{width:112px;height:112px;background-color:rgba(255,255,255,.37)}.container:hover{transform:scale(1.01)}.sub-container{display:grid;grid-template:100px 100px 100px 1px/1fr 2fr 1fr;background-color:#f5f5f5;height:500px;grid-template-areas:". . ." ". title ." ". text ." ". isim ."}.sub-container .title{grid-area:title;font-size:50px;font-family:"Courier New",Courier,monospace}.sub-container .text{max-width:500px;grid-area:text;font-family:"Courier New",Courier,monospace;font-size:20px}.sub-container .isim{text-align:left;grid-area:isim;font-size:20px;font-family:"Courier New",Courier,monospace}.referanslar{height:200px;border-top:1px solid rgba(255,255,255,0);border-bottom:1px solid rgba(255,255,255,0);text-align:center;justify-content:center;align-items:center;align-content:center}.referanslar:hover{transform:scale(1.02)}.referanslar .ref-kutular ul{width:100%;display:flex;align-content:center;align-items:center;justify-content:center}.referanslar .ref-kutular ul li{display:flex;flex-direction:column;align-content:center;align-items:center;margin:40px}.referanslar .ref-kutular ul li img{height:256px}.ref-aciklama{font-size:30px;color:wheat;height:100px}.footer{display:flex;align-items:center;height:50px;background-color:#000;color:rgba(255,255,255,.37)}.footer ul{padding:0px 20px;width:100%;display:flex;justify-content:space-between}/*# sourceMappingURL=main.css.map */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    -webkit-font-smoothing:antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #f5ca32;
+list-style: none;
+}
+body{
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    height: 120px;
+    background-color: #282928;
+    display: flex;
+    position: relative;
+}
+.logo{
+    font-size: 30px;
+    display: inline;
+    color: #f5ca32;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    margin: auto;
+}
+.contact{
+    justify-self: right;
+    position: absolute;
+    right: 0px;
+}
+.contact a{
+display: block;
+}
+
+.contact a button{
+    padding: 0px 20px;
+    border-left: 1px solid #f5ca32;
+    text-align: center;
+    font-size: 24px;
+    width: 150px;
+    height: 120px;
+background-color:#282928;
+color: #f5ca32;
+}
+/*-----HEADER END----*/
+.container{
+    width: 100%;
+    height: 900px;
+    background-color: #EDF2EA;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.langs{
+    min-width: calc(100% - 200px);
+    min-height: 700px;
+    margin: 100px 30px;
+    background-color: #f5ca32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont-title{
+    font-size: 50px;
+    color: #282928;
+}
+.langs ul{
+    width: 75%;
+    min-height:500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.langs ul li{
+margin: 20px;
+}
+img{
+    height: 224px;
+    width: 224px;
+}
+
+/*----langs end----*/
+
+.a{
+    flex-direction: column;
+    max-height: 500px;
+}
+.title{
+    font-size: 30px;
+    color:#282928;
+}
+.text{
+    color: #282928;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+}
+
+/*whoiam------*/
+.b{
+    max-height: 500px;
+width: 75%;
+flex-direction: column;
+}
+.ref-kutular ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.ref-kutular ul li{
+    margin: 30px;
+}
+.ref-aciklama{
+    margin-top: 30px;
+    font-size: 30px;
+}
+/*-------- ref end-----*/
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: #282928;
+    position: sticky;
+    bottom: 0px;
+}
+.footer ul{
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* --------------------------- */
+@media screen and (min-width:600px) and (max-width:780px){
+    .container{
+        width: 100%;
+        height: 1100px;
+        background-color: #EDF2EA;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .langs{
+        min-width: 600px;
+        min-height: 900px;
+        margin: 100px 30px;
+        background-color: #f5ca32;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width:450px) and (max-width:600px){
+    .cont-title{
+        font-size: 25px;
+        color: #282928;
+    }
+    .container{
+        width: 100%;
+        height: 1000px;
+        background-color: #EDF2EA;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .langs{
+        min-width: 450px;
+        min-height: 900px;
+        margin: 50px 30px;
+        background-color: #f5ca32;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ref-kutular ul{
+        flex-direction: column;
+    }
+
+
+}
+@media screen and (min-width:300px) and (max-width:450px){
+    .header{
+        height: 80px;
+        background-color: #282928;
+        display: flex;
+        position: relative;
+    }
+    .logo{
+        font-size: 20px;
+        display: inline;
+        color: #f5ca32;
+        align-self: center;
+        justify-self: left;
+        text-align: center;
+        position: absolute;
+        left: 20px;
+    }
+    .contact a button{
+        padding: 0px 20px;
+        border-left: 1px solid #f5ca32;
+        text-align: center;
+        font-size: 18px;
+        width: 150px;
+        height: 80px;
+    background-color:#282928;
+    color: #f5ca32;
+    }
+    .cont-title{
+        font-size: 20px;
+        color: #282928;
+    }
+    .container{
+        width: 100%;
+        height: 800px;
+        background-color: #EDF2EA;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .langs{
+        min-width: 300px;
+        min-height: 600px;
+        margin: 50px 30px;
+        background-color: #f5ca32;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    img{
+        height: 160px;
+        width: 160px;
+    }
+    .ref-kutular ul{
+        flex-direction: column;
+    }
+
+}
