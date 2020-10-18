@@ -2,4 +2,10 @@
     .container {
         height: 700px;
     }
+    ul{
+        flex-wrap: wrap;
+    }
+    ul li{
+        width: 50%;
+    }
 }
