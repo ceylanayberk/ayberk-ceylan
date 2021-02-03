@@ -40,6 +40,15 @@ const questionData =[
         ch_5: 'Bilmiyorum',
         correct: 'ch_4' 
     },{
+        question: 'Bu gün doğum günü olan sevgilisinin ismi nedir?',
+        ch_1: 'Ayşe',
+        ch_2: 'Fatma',
+        ch_3: 'MERVİİİŞ',
+        ch_4: 'Hayriye',
+        ch_5: 'Demet Akalın',
+        correct: 'ch_3'
+    
+    },{
         question: 'Ayberk hangi günde doğmuştur?',
         ch_1: '11 Eylül 2001',
         ch_2: '10 Eylül 2000',
