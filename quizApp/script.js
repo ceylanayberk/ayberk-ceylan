@@ -24,14 +24,6 @@ const questionData =[
         ch_5: 'Mantı',
         correct: 'ch_1'
     },{
-        question: 'Bu gün ne yemiştir?',
-        ch_1: 'Köfte',
-        ch_2: 'Tavuklu kremalı makarna',
-        ch_3: 'Biftek',
-        ch_4: 'Carl\'s burger',
-        ch_5: 'Çıtır tavuklu sandwich',
-        correct: 'ch_2'
-    },{
         question: 'Ayberk\'in manitası var mı?',
         ch_1: 'Yoktur',
         ch_2: 'boş',
@@ -39,15 +31,6 @@ const questionData =[
         ch_4: 'Kesin vardır',
         ch_5: 'Bilmiyorum',
         correct: 'ch_4' 
-    },{
-        question: 'Bu gün doğum günü olan sevgilisinin ismi nedir?',
-        ch_1: 'Ayşe',
-        ch_2: 'Fatma',
-        ch_3: 'MERVİİİŞ',
-        ch_4: 'Hayriye',
-        ch_5: 'Demet Akalın',
-        correct: 'ch_3'
-    
     },{
         question: 'Ayberk hangi günde doğmuştur?',
         ch_1: '11 Eylül 2001',
@@ -128,14 +111,6 @@ const questionData =[
         ch_4: 'Trump',
         ch_5: 'Joe Biden',
         correct: 'ch_3'
-    },{
-        question: 'Ayberk bu testi neden çözdürüyordur?',
-        ch_1: 'Pandemide kimle yakın olup olmadığını anlamak için.',
-        ch_2: 'Sosyal deney',
-        ch_3: 'Kişisel merak',
-        ch_4: 'Bilmiyorum',
-        ch_5: 'boş',
-        correct: 'ch_1'
     },{
         question: 'Ayberk hangi yemeği yerken aşırı terler?',
         ch_1: 'Acılı Çiğ Köfte',

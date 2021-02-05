@@ -6,35 +6,40 @@
     list-style: none;
 }
 body{
-    padding: 100px 200px;
+    padding: 3rem 3rem;
     background-color: black;
     color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
    
 }
-.question{
-    padding-top: 10px;
+#question{
+    font-size: 1.5rem;
+    margin: 0.5rem 0.3rem ;
+}
+h1{
+    font-size: 2rem;
+
 }
 label{
     cursor: pointer;
-    margin-left: 10px;
-    font-size: 20px;
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
 }
 .quiz-container{
-    padding-top: 15px;
-    margin-top: 20px;
+    padding-top: 0.4rem;
+    margin-top: 0.5rem;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 1rem;
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-    padding-bottom: 20px;
+    padding-bottom: 1.5rem;
     box-shadow: 0px 0px 20px 12px rgb(255, 255, 255,0.2);
 }
 #button{
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 1.5rem;
     background-color: white;
 }
 #button:hover{
@@ -43,11 +48,11 @@ label{
     cursor: pointer;
 }
 #buttonlast{
-    width: 100px;
-    height: 30px;
-    border-radius: 20px;
+    width: 7rem;
+    height: 3rem;
+    border-radius: 1.5rem;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 #buttonlast:hover{
     color: white;
@@ -55,8 +60,20 @@ label{
     cursor: pointer;
 }
 #list{
-padding: 10px 20px;
+padding: 1rem 2rem;
 }
 li{
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
+}
+input[type=radio] {
+    border: 0;
+    width: 1rem;
+    height: 2rem;
+margin-right: 1rem;
+    -ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);
+}
+.ans{
+font-size: 2.5rem;
 }
